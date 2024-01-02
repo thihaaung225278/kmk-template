@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khantmyatkyaw</title>
+	<style>
+
+		/* common css */
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container{
+			/* margin: 0 auto; */
+			padding: 40px 0 0 0;
+		}
+
+
+		body{
+			/* width: 1200px; */
+			/* height: 480px; */
+			/* margin: 0; */
+
+		}
+		.div1-container{
+			background: grey; 
+			padding: 10px 0;
+		}
+		#div1{
+			width: 1100px;
+			height: 30px;
+			margin: 0 auto;
+		}
+		#div11{
+			width: 400px;
+			height: 30px;
+			
+			float: left;
+
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+		#dot{
+			width: 10px;
+			height: 10px;
+			background: cyan;
+			border-radius: 50%;
+			float: left;
+			/* margin-top: 7px; */
+		}
+		#name{
+			font-size: 15px;
+			font-weight: bold;
+		}
+		#school{
+			font-size: 8px;
+			clear: left;
+		}
+		#div12{
+			width: 400px;
+			height: 30px;
+			
+			float: left;
+			margin-left: 210px;
+			text-align: right;
+
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+		}
+		#div12 a{
+			padding: 0 10px;
+		}
+		a:link{
+			text-decoration: none;
+			color: black;
+		}
+		
+		#warp{
+			width: 1100px;
+			height: 380px;
+			
+			/* clear: both; */
+
+			margin: 0 auto;
+
+			display: flex;
+			gap: 40px;
+		}
+		#w1{
+			/* width: 350px; */
+			width: 50%;
+			/* height: 250px; */
+			/* float: left; */
+			/* margin-top: 50px; */
+			/* margin-left: 150px; */
+		}
+		#w1 .profile-image{
+			background-image: url('me2.jpg');
+			background-size: cover;
+    		background-position: 84%;
+			width: 400px;
+			height: 400px;
+			border-radius: 50%;
+			margin-left: auto;
+		}
+		/* img{
+			width: 250px;
+			height: 250px;
+			border-radius: 50%;
+			/* margin-left: 100px; 
+		}*/
+		#w2{
+			width: 50%;
+			/* height: 155px; */
+			
+			/* float: left; */
+			margin-top: 90px;
+		}
+		#w2 .content{
+			max-width: 400px;
+		}
+		/* h2,h3,h4{
+			margin: 0;
+		} */
+		p{
+			/* margin-top: 10px; */
+			/* font-size: 10px; */
+			font-size: 16px;
+			margin-top: 15px;
+		}
+		.user-info{
+			/* text-align: center; */
+		}
+		.user-info a{
+			display: inline-block;
+			width: 70px;
+			height: 70px;
+			line-height: 70px;
+			padding: 0px;
+			margin-right: 10px;
+			text-align: center;
+		}
+		.user-info-link-wrapper{
+			width: 50%;
+			transform: translateX(80%) translateY(-25%);
+		}
+		#w3{
+			/* width: 320px; */
+			/* height: 40px; */
+			/* margin-left: 440px; */
+			
+			/* clear: left; */
+			/* margin-bottom: 200px; */
+			
+			max-width: 1100px;
+			margin: 0 auto
+		}
+		.w31{
+			padding: 12px;
+			background: #8cc255;
+			border-radius: 50%;
+			font-size: 14px;
+		}
+		.w32{
+			padding: 12px;
+			font-size: 14px;
+			border-radius: 50%;
+			background: #d98032;
+		}
+		.w33{
+			padding: 12px;
+			font-size: 14px;
+			border-radius: 50%;
+			background: #32d9d9;
+		}
+		.w34{
+			padding: 12px;
+			font-size: 14px;
+			border-radius: 50%;
+			background: #a5b8b8;
+		}
+		#div2{
+			width: 1100px;
+			height: 70px;
+			margin: 0 auto;
+			padding-top: 50px;
+		}
+		#div21{
+			width: 200px;
+			padding-left: 20px;
+			float: left;
+		}
+		#email{
+			font-size: 10px;
+		}
+		#div22{
+			width: 200px;
+			float: left;
+		}
+		#github{
+			font-size: 10px;
+			color: black;
+		}
+		#div23{
+			width: 200px;
+			float: left;
+		}
+		#adams{
+			font-size: 10px;
+		}
+		#div24{
+			width: 200px;
+			height: 50px;
+			margin-top: 20px;
+			margin-left: 260px;
+			float: left;
+			font-size: 10px;
+			text-align: right;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="div1-container">
+		<div id="div1">
+			<div id="div11">
+				<div id="dot"></div>
+				<span id="name">Khant Myat Kyaw</span>
+				<span id="school">Sar Pann Aein Student</span>
+			</div>
+			<div id="div12">
+				<div>
+					<a href="#r1">Resume</a>
+					<span>|</span>
+					<a href="#r2">Research</a>
+					<span>|</span>
+					<a href="#ot">Outreach</a>
+					<span>|</span>
+					<a href="#person">Personal</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<!-- profile image and left content -->
+		<div id="warp">
+			<div id="w1">
+				<!-- <img src="me2.jpg"> -->
+				<div class="profile-image"></div>
+			</div>
+			<div id="w2">
+				<div class="content">
+					<h2>Khant Myat Kyaw</h2>
+					<h3>A Bit About Me</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.
+					</p>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<!-- user info -->
+	<div class="user-info">
+		<div id="w3">
+			<div class="user-info-link-wrapper">
+				<a class="w31" href="#r1">Resume</a>
+				<a class="w32" href="#r2">Research</a>
+				<a class="w33" href="#ot">Outreach</a>
+				<a class="w34" href="#person">Personal</a>
+			</div>
+		</div>
+	</div>
+	<div id="div2">
+		<div id="div21">
+			<h4>Email</h4>
+			<span id="email">khantmyatkyaw0@gmail.com</span>
+		</div>
+		<div id="div22">
+			<h4>GitHub</h4>
+			<a id="github" href="https://github.com/KhantMyatKyaw">https://github.com/KhantMyatKyaw</a>
+		</div>
+		<div id="div23">
+			<h4>ADAMS fellow</h4>
+			<span id="adams">https://adams.com/KhantMyatKyaw</span>
+		</div>
+		<div id="div24">
+			&copy;2024 by khantmyatkyaw
+		</div>
+	</div>
+
+</body>
+</html>
